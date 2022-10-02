@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" fx:id="_e1feild" onKeyPressed="#handle" prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="EasyController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1c84e59c" height="500.0" layoutX="150.0" stroke="BLACK" strokeType="INSIDE" width="125.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#9721ff95" height="500.0" layoutX="275.0" stroke="BLACK" strokeType="INSIDE" width="125.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#21ff5589" height="500.0" layoutX="400.0" stroke="BLACK" strokeType="INSIDE" width="125.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ffbe1fb2" height="500.0" layoutX="525.0" stroke="BLACK" strokeType="INSIDE" width="125.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#082b4c" height="100.0" layoutY="500.0" stroke="#e8e8e8" strokeType="INSIDE" strokeWidth="3.0" width="800.0" />
+      <Text fx:id="e1score" fill="#ededed" layoutX="297.0" layoutY="572.0" onKeyPressed="#handle" strokeType="OUTSIDE" strokeWidth="0.0" text="0000000000">
+         <font>
+            <Font size="38.0" />
+         </font>
+      </Text>
+      <Label layoutX="15.0" layoutY="540.0" text="残酷な天使のテーゼ" textFill="#fdfdfd">
+         <font>
+            <Font name="System Bold" size="25.0" />
+         </font>
+      </Label>
+      <Label layoutX="678.0" layoutY="531.0" text="EASY" textFill="#fffdfd">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="150.0" layoutY="400.0" prefHeight="50.0" prefWidth="125.0" text="D" textFill="#e2e834">
+         <font>
+            <Font size="32.0" />
+         </font>
+      </Label>
+      <Pane fx:id="eup" layoutX="150.0" layoutY="400.0" prefHeight="50.0" prefWidth="125.0" />
+      <Label alignment="CENTER" layoutX="275.0" layoutY="400.0" prefHeight="50.0" prefWidth="125.0" text="F" textFill="#e2e834">
+         <font>
+            <Font size="32.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="525.0" layoutY="400.0" prefHeight="50.0" prefWidth="125.0" text="K" textFill="#e2e834">
+         <font>
+            <Font size="32.0" />
+         </font>
+      </Label>
+      <Pane fx:id="edown" layoutX="275.0" layoutY="400.0" prefHeight="50.0" prefWidth="125.0" />
+      <Pane fx:id="eright" layoutX="525.0" layoutY="400.0" prefHeight="50.0" prefWidth="125.0" />
+      <Line endX="500.0" fill="#f20000" layoutX="150.0" layoutY="450.0" stroke="#f80303" strokeWidth="5.0" />
+      <Line endX="500.0" layoutX="150.0" layoutY="400.0" stroke="#f80303" strokeWidth="5.0" />
+      <Label alignment="CENTER" layoutX="400.0" layoutY="400.0" prefHeight="50.0" prefWidth="125.0" text="J" textFill="#e2e834">
+         <font>
+            <Font size="32.0" />
+         </font>
+      </Label>
+      <Pane fx:id="eleft" layoutX="400.0" layoutY="400.0" prefHeight="50.0" prefWidth="125.0" />
+      <Pane fx:id="end" layoutX="101.0" layoutY="50.0" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: black; -fx-border-color: white;" visible="false">
+         <children>
+            <Label layoutX="167.0" layoutY="54.0" text=" LEVEL :  EASY" textFill="WHITE">
+               <font>
+                  <Font size="36.0" />
+               </font></Label>
+            <Label layoutX="160.0" layoutY="131.0" text="SCORE :" textFill="WHITE">
+               <font>
+                  <Font size="36.0" />
+               </font>
+            </Label>
+            <Button fx:id="e1back_btn" layoutX="210.0" layoutY="261.0" mnemonicParsing="false" onAction="#back_to_menu" prefHeight="58.0" prefWidth="179.0" style="-fx-background-color: black; -fx-border-color: white;" text="MENU" textFill="WHITE">
+               <font>
+                  <Font size="36.0" />
+               </font>
+            </Button>
+            <Text fx:id="e1sc" fill="WHITE" layoutX="325.0" layoutY="168.0" onKeyPressed="#handle" strokeType="OUTSIDE" strokeWidth="0.0" text="0" wrappingWidth="228.5550537109375">
+               <font>
+                  <Font size="36.0" />
+               </font>
+            </Text>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
