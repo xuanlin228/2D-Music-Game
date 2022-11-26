@@ -19,7 +19,7 @@ NetBeans IDE<br>
 3. Download [Scene Builder](https://gluonhq.com/products/scene-builder/) and install
 4. [Using Scene Builder with NetBeans IDE](https://docs.oracle.com/javase/8/scene-builder-2/work-with-java-ides/sb-with-nb.htm)
 
-## How to play
+## How to play this game
 1. First, to choose the difficulty you want to play. There are two difficulties,*Easy* and *Hard*.
 2. Second, choose the song.
 3. When the tempo drops into the red region, we should press the corresponding key such as `D`,`F`,`J`,`K` to eliminate the tempo.<br>
